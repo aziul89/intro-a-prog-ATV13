@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+            background-color: lightsalmon;
+        }
+        body {
+            background-color: rgb(237, 237, 81);
+        }
+    </style>
+</head>
+<>
+    <marquee behaviour="alternate" direction="up" scrollamount="16" loop>
+    <h1>Tipos de Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p><b>Frase em negrito</b> usando a tag 'b'.</p>
+    <p><strong>Frase em destaque</strong> usando a tag 'strong'.</p>
+    <h2>Itálico/Ênfase</h2>
+    <p><i>Frase em itálico</i> usando a tag 'i'.</p>
+    <p><em>Frase em ênfase</em> usando a tag 'em'.</p>
+   
+    <h2>Texto marcado</h2>
+    <p><mark>Termo marcado</mark> usando a tag 'mark'.</p>   
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+   
+    <h2>Texto deletado</h2>
+    <p><del>Termo excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    
+    <h2>Texto inserido</h2>
+    <p><ins>Termo inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag 'u'.</p>
+    
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3, usando a tag 'sup'.</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O, usando a tag 'sub'.</p>
+    
+    <h1>Outros Tipos de Formatações</h1>
+   
+    <h2>Código-fonte/Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    
+    <h2>Citações simples</h2>
+    <p>Usando a tag 'q'.</p>
+    <p>Como diria Platão: <q>Não há ninguém, mesmo sem cultura, que não se torne poeta quando o amor toma conta dele.</q></p>
+    
+    <h2>Citações completas</h2>
+    <p>Disse Charlie, no livro As vantagens de ser invisível:</p>
+    <blockquote cite=https://books.google.com/books?id=NeRiDwAAQBAJ&dq=livro+as+vantagens+de+ser+invis%C3%ADvel&hl=pt-BR&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwizoIeZ483-AhVuupUCHUySDiMQ6AF6BAgCEAI>
+        <mark>Então, esta é a minha vida. E quero que você saiba que sou feliz e triste ao mesmo tempo, e ainda estou tentando entender como posso ser assim.</mark>
+    </blockquote>
+    
+    <h2>Abreviações</h2>
+    <p>Estou estudando HTML <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+    </marquee>
+</body>
+</html>
